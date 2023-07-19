@@ -1,0 +1,109 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin-bottom: 25px;
+    width: 100%;
+    max-width: 100%;
+    display: inline;
+    border-bottom: 5px solid aquamarine;
+    opacity: .8;
+}
+
+.navbar a {
+    background-color: rgb(189, 189, 189);
+    float: left;
+    overflow: hidden;
+    width: 22%;
+    max-width: 25%;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    border: 0;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.navbar a:hover {
+    background-color: aquamarine;
+    font-size: larger;
+}
+
+.general {
+    margin: 0%;
+    background-color:rgb(189, 189, 189) ;
+    font-family: "Audiowide",'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.column {
+    display: block;
+    float: left;
+    width: 50%;
+    text-align:center;
+    height: 400px;
+}
+
+.column h1 p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.column img {
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+    width: 100%;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.whitespace {
+    padding-top: 100px;
+}
+
+hr {
+    border-color: black;
+}
+
+.center {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+form input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+form input:hover {
+    cursor: pointer;
+    background-color: aquamarine;
+    color: black;
+}
+
+#submit {
+    margin-top: 30px;
+    background-color: black;
+    color: aquamarine;
+}
+
+#submit:hover {
+    background-color: aquamarine;
+    color: black;
+}
